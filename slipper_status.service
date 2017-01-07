@@ -1,0 +1,10 @@
+# Copyright (C) 2017 Conrad Bailey
+# This software is distributed under the GNU General Public License.
+# See the file COPYING for details.
+
+[Unit]
+Description=Check slipper charging status
+
+[Service]
+Type=simple
+ExecStart=/home/conrad/pics/imgedit.py
